@@ -10,7 +10,12 @@ class App extends Component {
           <h1>Trading BTC/ETH</h1>
         </header>
         <div class="container-fluid">
-          <Statistics text="test me baby"/>
+          <Statistics
+            startAt={Date.now()}
+            profitTotal={0.143245}
+            profit24={-0.01124}
+            currentDealProfit={0.0}
+          />
         </div>
       </div>
     );

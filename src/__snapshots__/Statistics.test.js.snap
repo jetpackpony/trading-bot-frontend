@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Statistics shows current deal if it is set 1`] = `
+<div
+  className="Statistics row"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-6"
+    >
+      Started
+    </div>
+    <div
+      className="col-xs-6"
+    >
+      Friday, April 6, 2018 7:01 PM
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-6"
+    >
+      Profit since start:
+    </div>
+    <div
+      className="col-xs-6"
+    >
+      +14.32%
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-6"
+    >
+      Profit in the last 24h:
+    </div>
+    <div
+      className="col-xs-6"
+    >
+      -1.12%
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-6"
+    >
+      Currently open deal:
+    </div>
+    <div
+      className="col-xs-6"
+    >
+      +15%
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Statistics shows that no deal is open 1`] = `
+<div
+  className="Statistics row"
+>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-6"
+    >
+      Started
+    </div>
+    <div
+      className="col-xs-6"
+    >
+      Friday, April 6, 2018 7:01 PM
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-6"
+    >
+      Profit since start:
+    </div>
+    <div
+      className="col-xs-6"
+    >
+      +24.32%
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-6"
+    >
+      Profit in the last 24h:
+    </div>
+    <div
+      className="col-xs-6"
+    >
+      -1.12%
+    </div>
+  </div>
+  <div
+    className="row"
+  >
+    <div
+      className="col-xs-12"
+    >
+      No open deals, waiting for the opportunity
+    </div>
+  </div>
+</div>
+`;
